@@ -1,35 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div class="container-fluid">
+    <img src="images/bg-pattern-top.svg" alt="" id="top-bg-im">
+    <img src="images/bg-pattern-bottom.svg" alt="" id='bottom-bg-im'>
+    <div class="row">
+      <div class="col">
+        <div class="card border-0" style="width: 25rem;">
+          <img class="card-img-top" src="images/bg-pattern-card.svg">
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+                <img src="images/image-victor.jpg" alt="victor profile picture" class="profpic">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <span class="name">Victor Crest</span>
+                <span class="age subtext">26</span>
+              </div>
 
-  80K
-  Followers
+            </div>
+            <div class="row">
+              <div class="col">
+                <span class="place subtext">London</span>
+              </div>
 
-  803K
-  Likes
+            </div>
 
-  1.4K
-  Photos
+
+          </div>
+          <div class="card-footer">
+            <div class="row stats">
+              <div class="col">
+                <span class="name">80K</span>
+
+
+              </div>
+              <div class="col">
+                <span  class="name">803K</span>
+
+
+              </div>
+              <div class="col">
+                <span  class="name">1.4K</span>
+
+
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col">
+                <span class="subtext label">Followers</span>
+
+              </div>
+              <div class="col">
+                <span class="subtext label">Likes</span>
+
+              </div>
+              <div class="col">
+                <span class="subtext label">Photos</s>
+
+              </div>
+
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="clear"></div>
+  </div>
+
+
+
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/bresek">Ben Resek</a>.
   </div>
 </body>
+
 </html>
